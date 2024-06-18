@@ -1,11 +1,10 @@
-package webSocket
-
+package webSocket 
 import (
 	"log"
 	"net/http"
 )
 
-var upgrader = webSocket.Upgrader{
+var upgrader = webSocket.Upgrader{ 
 	ReadBufferSize:  1024,
 	WriteBufferSize: 1024,
 }

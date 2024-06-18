@@ -1,10 +1,9 @@
-backend webSocket
+package webSocket
+
 import (
 	"fmt"
 	"log"
 	"sync"
-
-	"github.com/gorilla/websocket"
 )
 
 type Client struct {
