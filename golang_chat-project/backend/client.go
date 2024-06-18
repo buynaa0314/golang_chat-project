@@ -1,3 +1,4 @@
+backend webSocket
 import (
 	"fmt"
 	"log"
